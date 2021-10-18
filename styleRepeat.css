@@ -1,0 +1,90 @@
+.main {
+    width: fit-content;
+    margin: auto;
+    box-shadow: white;
+    padding-top: 30px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+}
+
+.header {
+    background-color: rosybrown;
+    padding-right: 30px;
+    padding-top: 50px;
+    padding-left: 80px;
+    margin: auto;
+}
+
+.logo {
+    left: auto;
+    width: 200px;
+    height: 100px;
+    background-color: rosybrown;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+li {
+    /* float: right; --> reduces the red border*/
+    list-style-type: none;
+    background: red;
+    text-align: right;
+    color: white;
+    display: block;
+}
+
+
+/* can't get the text in a line */
+
+li a {
+    /* display: inline; --> seems to have no function*/
+    color: white;
+    text-decoration: none;
+    padding-right: 14px;
+}
+
+.samsung {
+    width: fit-content;
+    text-align: center;
+    /* padding-bottom: 30px; --> doesn't work. wonder why */
+    display: block;
+}
+
+.debit {
+    margin: auto padding-right: 35px;
+}
+
+.roller {
+    margin: auto;
+    margin-top: -323px;
+    margin-left: 450px;
+    padding-left: 70px;
+}
+
+.footer {
+    background-color: rosybrown;
+    text-align: center;
+    padding-top: 25px;
+    margin-top: 25px;
+}
+
+
+/* --- didn't work either --- */
+
+
+/* .row {
+    clear: both;
+    display: table;
+}
+
+.debit .roller {
+    float: left;
+    width: 50%;
+    padding-right: 5px;
+} */
